@@ -14,5 +14,6 @@ export default {
   <div>
     <NavBarVue/>
     <HeaderVue/>
+
   </div>
 </template>
