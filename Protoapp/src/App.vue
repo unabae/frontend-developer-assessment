@@ -1,19 +1,27 @@
 <script>
+import AppStoreVue from "./AppStore.vue";
+import ContentVue from "./Content.vue";
 import HeaderVue from "./Header.vue";
-import NavBarVue from './NavBar.vue';
+import NavBarVue from "./NavBar.vue";
 
 export default {
   components: {
     HeaderVue,
-    NavBarVue
+    NavBarVue,
+    AppStoreVue,
+    ContentVue,
   },
 };
 </script>
 
 <template>
-  <div>
-    <NavBarVue/>
-    <HeaderVue/>
-
+  <div class="app">
+    <NavBarVue />
+    <HeaderVue />
+    <AppStoreVue />
+    <ContentVue
+      title="Meet Protoapp"
+      body="The app lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation."
+    />
   </div>
 </template>
