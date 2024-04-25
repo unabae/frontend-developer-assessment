@@ -1,9 +1,11 @@
 @import './base.css';
 
-/* #app {
-
+ #app {
+ background-image: url("./bg-leaves.svg");
+ background-repeat: no-repeat;
+ background-size:contain
   
-} */
+} 
 
 
 #logo {
@@ -14,5 +16,13 @@
 
 .header {
   display: flex;
+}
+
+.bg-blue {
+  background-color: rgb(46, 46, 235);
+}
+
+.mt-n1 {
+  margin-top: -0.25rem !important;
 }
 

@@ -5,7 +5,7 @@ import ContentVue from "./Content.vue";
 import HeaderVue from "./Header.vue";
 import NavBarVue from "./NavBar.vue";
 import LeftCardVue from "./LeftCard.vue";
-import CardVueRight2 from "./CardRight2.vue"
+import CardVueRight2 from "./CardRight2.vue";
 
 export default {
   components: {
@@ -15,7 +15,7 @@ export default {
     ContentVue,
     CardVueRight,
     LeftCardVue,
-    CardVueRight2
+    CardVueRight2,
   },
 };
 </script>
@@ -24,8 +24,8 @@ export default {
   <div class="app">
     <NavBarVue />
     <HeaderVue />
-    <AppStoreVue />
-    <ContentVue
+    <AppStoreVue class="pb-5"/>
+    <ContentVue class="pt-5"
       title="Meet Protoapp"
       body="The app lorem ipsum is common placeholder text used to demonstrate the graphic elements of a document or visual presentation."
     />
@@ -41,6 +41,16 @@ export default {
       cardTitle="Endless Possibilities"
       cardText="Management Systems shouldn't be a bore. Run out of words? heres some lorem ipsum: Lorem ipsum dolor sit amet."
     />
-
+    <ContentVue
+      class="py-5 bg-blue text-white"
+      title="Deep dive. Ready"
+      body="So are we. Unless. You're. Not. Word filler."
+    />
+    <AppStoreVue class="bg-blue pb-5"/>
+    <ContentVue class="my-5"
+      title="Last Call to Action"
+      body="Another section content goes here"
+    />
+    
   </div>
 </template>
