@@ -6,6 +6,9 @@ import HeaderVue from "./Header.vue";
 import NavBarVue from "./NavBar.vue";
 import LeftCardVue from "./LeftCard.vue";
 import CardVueRight2 from "./CardRight2.vue";
+import Content3Vue from './Content3.vue';
+import FooterVue from './Footer.vue';
+import Footer2Vue from './Footer2.vue';
 
 export default {
   components: {
@@ -16,6 +19,9 @@ export default {
     CardVueRight,
     LeftCardVue,
     CardVueRight2,
+    Content3Vue,
+    FooterVue,
+    Footer2Vue
   },
 };
 </script>
@@ -51,6 +57,8 @@ export default {
       title="Last Call to Action"
       body="Another section content goes here"
     />
-    
+    <Content3Vue />
+    <Footer class="imgfooter mt-3"/>
+    <Footer2Vue />
   </div>
 </template>

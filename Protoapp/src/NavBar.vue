@@ -1,6 +1,6 @@
 <template>
    <section>
-      <div class="header py-1 border border-primary">
+      <div class="header p-3">
         <img id="logo" class="mx-1" src="./assets/logo1.svg" alt="" />
         <h1 class="mx-2">Protoapp</h1>
         <h3 class="mx-4 py-3">Home</h3>

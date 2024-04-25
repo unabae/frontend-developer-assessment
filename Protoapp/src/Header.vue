@@ -1,5 +1,5 @@
 <template>
-  <section class="my-5 border container-fluid border-danger">
+  <section class="my-5 container-fluid">
     <div class="card border-0 bg-transparent" style="width: 30rem">
       <div class="card-body">
         <h1 class="card-title">Protoapp</h1>
